@@ -1,0 +1,202 @@
+h1 {
+    position : absolute;
+    top : 12%;
+    left : 50%;
+    text-align : center;
+    transform : translateX(-50%);
+    font-size : 80px;   
+}
+
+p1 {
+    position : absolute;
+    top : 29%;
+    left : 50%;
+    text-align : center;
+    transform : translateX(-50%);
+    font-size : 20px;   
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+#navbar__logo {
+    text-decoration: none;
+    font-size: 2rem;
+    color : black;
+    position : absolute; 
+    top : 1%;
+    left : 10%;
+    text-align : center;
+    transform : translateX(-50%);
+
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display : flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__links {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 2rem;
+    height: 100%;
+    font-size: 20px;
+}
+
+.navbar__links:hover{
+    color : white;
+    transition: all 0.3s ease;
+}
+
+h2 {
+    position : absolute;
+    top : 0%;
+    left : 18%;
+    text-align : center;
+    transform : translateX(-50%);
+    font-size : 80px; 
+}
+
+.quote__paragraph {
+    position : absolute;
+    top : 15%;
+    left : 35%;
+    text-align : left;
+    transform : translateX(-50%);
+    font-size : 95px; 
+    max-width: 45rem;
+}
+
+.quote__person {
+    position : absolute;
+    top : 140%;
+    left : 12%;
+    text-align : left;
+    transform : translateX(-50%);
+    font-size : 20px; 
+}
+
+.BIO {
+    position : absolute;
+    top : 150%;
+    left : 31%;
+    text-align : left;
+    transform : translateX(-50%);
+    font-size : 23px; 
+    max-width: 600px;
+}
+
+.navbar__containerAbout {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+#navbar__logoAbout {
+    text-decoration: none;
+    font-size: 2rem;
+    color : black;
+}
+
+.fa-gemAbout {
+    margin-right: 0.5rem;
+}
+
+.navbar__menuAbout {
+    display : flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__linksAbout {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 2rem;
+    height: 100%;
+    font-size: 20px;
+}
+
+.navbar__linksAbout:hover {
+    color : white;
+    transition: all 0.3s ease;
+}
+
+h3 {
+    position : absolute;
+    top : 0%;
+    left : 18%;
+    text-align : center;
+    transform : translateX(-50%);
+    font-size : 80px;
+}
+
+.navbar__containerArt {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+#navbar__logoArt {
+    text-decoration: none;
+    font-size: 2rem;
+    color : black;
+}
+
+.fa-gemArt {
+    margin-right: 0.5rem;
+}
+
+.navbar__menuArt {
+    display : flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__linksArt {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 2rem;
+    height: 100%;
+    font-size: 20px;
+}
+
+.navbar__linksArt:hover {
+    color : white;
+    transition: all 0.3s ease;
+}
